@@ -1,36 +1,28 @@
+## Diabetes Predictor ML Project
+# Overview
+This project aims to develop a machine learning model that predicts the likelihood of an individual having diabetes based on certain input features. The model is trained on a labeled dataset containing information about various attributes related to diabetes.
 
-# Diabetes Predictor WebApp using Machine Learning Model
+# Dataset
+The dataset used for training and evaluating the model consists of a collection of records, each containing several features and a corresponding target variable indicating whether the individual has diabetes or not. The features include:
 
-This is Machine Learning project for predicting if the patient has Diabetes or not. I also have made an UI using streamlit.
+Pregnancies: Number of times pregnant.
+Glucose: Plasma glucose concentration.
+BloodPressure: Diastolic blood pressure.
+SkinThickness: Triceps skinfold thickness.
+Insulin: 2-Hour serum insulin level.
+BMI: Body mass index.
+DiabetesPedigreeFunction: Diabetes pedigree function (a function that represents the genetic influence of diabetes).
+Age: Age in years.
+Model Development
+# The project involves the following steps:
 
+Feature Selection: If necessary, feature selection techniques are employed to identify the most relevant features for predicting diabetes. This helps in reducing dimensionality and improving model performance.
 
-## Authors
+Model Selection: Various machine learning algorithms are considered and evaluated to determine the most suitable model for the task. Common algorithms such as logistic regression, decision trees, random forests, and support vector machines may be explored.
 
-- [Kushal Shrestha](https://github.com/Kushal-Shr)
+Model Training: The selected model is trained on the preprocessed dataset, using a portion of the data for training and the remaining portion for validation and testing.
 
-
-## For Data Analysis
-
-- Pandas
-
-- Matplotlib
-
-- Seaborn
-
-
-## For Machine Learning Model
-
- - Scikit Learn
-
-    - Train Test Split
-    - Logistic Regression
-    - Evaluation
-## For storing the Model
-
-- Pickle
-## For Creating an UI
-
-- Streamlit
+Model Evaluation: The trained model is evaluated using appropriate evaluation metrics such as accuracy, precision, recall, and F1 score. The performance of the model is assessed to determine its effectiveness in predicting diabetes.
 ## Project UI
 
 ![App Screenshot](https://github.com/Kushal-Shr/Diabetes-Predictor-WebApp/blob/main/Project_UI.png?raw=true)
