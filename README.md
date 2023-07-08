@@ -6,15 +6,23 @@ This project aims to develop a machine learning model that predicts the likeliho
 The dataset used for training and evaluating the model consists of a collection of records, each containing several features and a corresponding target variable indicating whether the individual has diabetes or not. The features include:
 
 Pregnancies: Number of times pregnant.
+
 Glucose: Plasma glucose concentration.
+
 BloodPressure: Diastolic blood pressure.
+
 SkinThickness: Triceps skinfold thickness.
+
 Insulin: 2-Hour serum insulin level.
+
 BMI: Body mass index.
+
 DiabetesPedigreeFunction: Diabetes pedigree function (a function that represents the genetic influence of diabetes).
+
 Age: Age in years.
-Model Development
-# The project involves the following steps:
+
+# Model Development
+The project involves the following steps:
 
 Feature Selection: If necessary, feature selection techniques are employed to identify the most relevant features for predicting diabetes. This helps in reducing dimensionality and improving model performance.
 
